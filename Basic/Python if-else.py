@@ -43,7 +43,7 @@ if __name__ == '__main__':
     elif n > 2 and n < 5:
         print("Not Weird")  # If n is even and in the range (2, 5), print "Not Weird"
     # Check if n is even and in the range (6, 20)
-    elif n > 6 and n < 20:
+    elif n > 6 and n <= 20:
         print("Weird")  # If n is even and in the range (6, 20), print "Weird"
     else:
         print("Not Weird")  # If n doesn't meet any of the above conditions, print "Not Weird"
